@@ -1,0 +1,36 @@
+ .avthor{
+  border-radius: 50%;
+   width: 100px; 
+   height: 100px; 
+   margin-left: 2px;
+   padding: 3px;
+   border-bottom: 2px dotted orange; 
+   border-width: 2px;
+   border-top: dotted orangered; 
+   background-color: black;
+   animation: rotate 999ms infinite linear;
+ }
+ /* @keyframes rotate {
+  0%{
+    border-top:  dotted orangered; 
+  }
+  50%{
+    border-right:  dotted orangered; 
+    border-top:  0px dotted orangered;
+  }
+  80%{
+    border-bottom:  dotted orangered; 
+    border-right: 0px dotted orangered;
+  }
+  90%{
+    border-left:  dotted orangered; 
+    border-bottom: 0px dotted orangered; 
+  }
+  100%
+  {
+    border-top:  dotted orangered; 
+    border-left: 0px dotted orangered; 
+  }
+ } */
+
+ 
