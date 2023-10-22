@@ -32,22 +32,6 @@
 //     }
 //   }, 15);
 // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const flavoursContainer = document.getElementById('scroll-container');
 const flavoursScrollWidth = flavoursContainer.scrollWidth;
 

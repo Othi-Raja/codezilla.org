@@ -1,15 +1,16 @@
- .avthor{
-  border-radius: 50%;
-   width: 100px; 
-   height: 100px; 
+ .avthor {
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
    margin-left: 2px;
    padding: 3px;
-   border-bottom: 2px dotted orange; 
+   border-bottom: 2px dotted orange;
    border-width: 2px;
-   border-top: dotted orangered; 
+   border-top: dotted orangered;
    background-color: black;
-   animation: rotate 999ms infinite linear;
+
  }
+
  /* @keyframes rotate {
   0%{
     border-top:  dotted orangered; 
@@ -32,5 +33,3 @@
     border-left: 0px dotted orangered; 
   }
  } */
-
- 
