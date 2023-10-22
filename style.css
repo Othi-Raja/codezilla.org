@@ -10,6 +10,11 @@ html {
   font-family: 'Handjet', sans-serif;
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar{
+  scroll-timeline:20px;
+}
+
+
 .home-font:window-inactive {
   display: none;
 }

@@ -6,7 +6,7 @@
   <meta  name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CODEZILLA</title>
 </head>
-<!-- Swiper CSS -->
+ 
  
 <!--FONT AWESOME-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -208,6 +208,7 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.rings.min.js"></script>
+  <script src="dist/vanta.rings.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
   <script type="text/javascript"src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
@@ -215,18 +216,18 @@
   <script src="js.js"></script>
   <script>
     AOS.init();
-    VANTA.RINGS({
-      el: "#your-element-selector",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      backgroundColor: 0x0,
+     VANTA.RINGS({
+       el: "#your-element-selector",
+       mouseControls: true,
+       touchControls: true,
+       gyroControls: false,
+       minHeight: 200.00,
+       minWidth: 200.00,
+       scale: 1.00,
+       scaleMobile: 1.00,
+       backgroundColor: 0x0,
       color: 0xff9000
-    })
+     })
 
     VANTA.TRUNK({
       el: "#your-element",
@@ -243,7 +244,7 @@
       chaos: 10.00
     })
 
-
+  
 //       VANTA.TOPOLOGY({
 //        el: "#text-head",
 //         mouseControls: true,
