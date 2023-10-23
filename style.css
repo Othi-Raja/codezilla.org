@@ -12,7 +12,9 @@ html {
 }
  
 
-
+.btn {
+  display: none;
+}
 .home-font:window-inactive {
   display: none;
 }
@@ -386,7 +388,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 @media screen and (max-width: 414px) {
   .home-font {
-    padding-top: 5px;
+    padding-top: 39px;
     font-family: 'Handjet', sans-serif;
     /* font-family: 'Handjet', sans-serif; */
     /* font-family: 'Pixelify Sans', sans-serif; */
