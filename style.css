@@ -35,6 +35,7 @@ transition: 2s;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  transition: linear;
 }
 .home-font {
   margin-top: 5%;
@@ -101,6 +102,39 @@ transition: 2s;
   margin-top: 10px;
   border-radius: 20px;
 }
+/* <----------------------------------------Event update here---------------------------------------------> */
+.event-update{
+  font-family: 'Handjet', sans-serif;
+  margin: 20px;
+width: 100%;
+height: auto;
+color: #f0bd66;
+
+  /* From https://css.glass */
+background: rgba(52, 13, 13, 0.201);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(130, 130, 130, 0.1);
+backdrop-filter: blur(0.3px);
+-webkit-backdrop-filter: blur(7.4px);
+}
+ button{
+  padding: 0px 10px 0px 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: x-large;
+ }
+ button:hover{
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: orange;
+ }
+ .link:hover{
+  transition:linear;
+  color: rgb(255, 161, 29);
+ }
+/* <----------------------------------------^^^^^^^---------------------------------------------> */
+
 .gradi {
   background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 29%, #d911f2 66%, #ffa079 100%);
   background: -webkit-linear-gradient(45deg, #02e1ba 0%, #26c9f2 29%, #d911f2 66%, #ffa079 100%);

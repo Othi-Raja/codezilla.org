@@ -69,3 +69,19 @@ const smoother = ScrollSmoother.create({
   //ease: 'power4.out',
   //smoothTouch: 0.1, 
 });
+
+function gform_link(){
+  window.open("https://forms.gle/wxr2rPHsnPm83g4u5");
+}
+const popup = document.querySelector(".popupBox");
+const close = document.querySelector(".close");
+
+window.onload = function () {
+  setTimeout(() => {
+    popup.style.display = "block";
+  }, 3000);
+};
+
+close.addEventListener("click", () => {
+  popup.style.display = "none";
+});
