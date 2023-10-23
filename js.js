@@ -85,3 +85,9 @@ window.onload = function () {
 close.addEventListener("click", () => {
   popup.style.display = "none";
 });
+
+
+const load =document.querySelector(".loader");
+window.onload = function(){
+    load.style.display = 'none';
+}
