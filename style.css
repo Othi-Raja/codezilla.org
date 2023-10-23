@@ -10,9 +10,7 @@ html {
   font-family: 'Handjet', sans-serif;
   scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
-  scroll-timeline:20px;
-}
+ 
 
 
 .home-font:window-inactive {
@@ -51,6 +49,7 @@ html {
    width:400px;
    display: flex;
  } */
+
 .btn {
   color: #f1f1f1;
   border: 2px solid pink;
@@ -71,6 +70,7 @@ html {
   height: auto;
   width: 100%;
 }
+ 
 .contact-page {
   width: 100%;
   height: 100vh;
@@ -383,4 +383,27 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-background-clip: text;
     background-clip: text;
   }
+}
+@media screen and (max-width: 414px) {
+  .home-font {
+    padding-top: 5px;
+    font-family: 'Handjet', sans-serif;
+    /* font-family: 'Handjet', sans-serif; */
+    /* font-family: 'Pixelify Sans', sans-serif; */
+    font-size: 60px;
+    color: orange;
+    background: linear-gradient(to right, #f32170,
+        #fcaa73, #fefefe, #950a9f);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .btn {
+     display: none;
+  }
+  .card{
+    margin-top: 55px;
+  }
+ 
+ 
 }

@@ -52,7 +52,7 @@
         <li>
           <a href="#frame2" class="btn">EXPLORE</a>
         </li>
-        <li style="padding-left: 15px;  margin-top: -15px;">
+        <li class="learnmore" style="padding-left: 15px;  margin-top: -15px;">
           <a style="font-size: 20px; text-decoration: dotted;  font-family: 'Handjet', sans-serif;"
             href="https://community.mozilla.org/en/groups/codezilla/"><span> Learn more mozilla</span></a>
         </li>
@@ -115,29 +115,33 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="card"
+          <div data-aos="fade-right" data-aos-duration="300" data-aos-offset="160" data-aos-easing="ease-in-sine" class="card"
             style=" color: white;  border:  dotted orange;  background-color: black;">
             <span class="avthor1" style="  transform: translateY(-50px);">
-              <img data-aos="zoom-in" class="avthor" src="collage/head.png" alt=" icon">
+              <img data-aos="zoom-in" data-aos-duration="300" class="avthor" src="collage/head.png" alt=" icon">
               <dl style="margin: 15px 50px 0px 50px;">
-                <dt>Shaurya Jain <span style="font-size: 10px; color: rgb(108, 108, 108);">(Head)</span></dt>
-                <dd>
+                <dt>Shaurya Jain <span  style="font-size: 10px; color: rgb(86, 86, 86);">(Head)</span></dt>
+                <dd style="text-align: justify;">
                   A visionary leader at the helm of Codezilla Tech Club, igniting minds and shaping the future of
                   technology.</dd>
-              </dl>
+                  <span style="cursor: pointer; float: right; color: rgb(65,74,76);"><svg onclick="link()" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m13.736 5.853l4.005-4.117l2.325 2.38l-4.2 4.005h5.908v3.305h-5.937l4.229 4.108l-2.325 2.334l-5.74-5.769l-5.741 5.769l-2.325-2.325l4.229-4.108H2.226V8.121h5.909l-4.2-4.004l2.324-2.381l4.005 4.117V0h3.472zm-3.472 10.306h3.472V24h-3.472z"/></svg></span>
+              
+                </dl>
             </span>
           </div>
         </div>
         <div class="col-sm-6">
-          <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="card"
-            style=" color: white; margin-top: 160px; border:  dotted orange;  background-color: black;">
+          <div data-aos="fade-left"  data-aos-duration="300" data-aos-offset="160" data-aos-easing="ease-in-sine" class="card"
+            style=" margin-top: 70px; color: white; border:  dotted orange;  background-color: black;">
             <span class="avthor1" style="  transform: translateY(-50px);">
 
-              <img data-aos="zoom-in" class="avthor" src="collage/Screenshot 2023-10-21 103652.png" alt=" icon">
+              <img data-aos="zoom-in" data-aos-duration="300" class="avthor" src="collage/Screenshot 2023-10-21 103652.png" alt=" icon">
               <dl style="margin: 15px 50px 0px 50px;">
-                <dt>Chirag Agrawal <span style="font-size: 10px; color: rgb(133, 133, 133);">(Co-Head)</span></dt>
+                <dt>Chirag Agrawal <span   style="font-size: 10px; color: rgb(65, 74, 76);">(Co-Head)</span></dt>
                 <dd>
                   A passionate tech leader who drives innovation and fosters a collaborative community.</dd>
+                  <span style="cursor: pointer; float: right; color: rgb(65, 74, 76);"><svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m13.736 5.853l4.005-4.117l2.325 2.38l-4.2 4.005h5.908v3.305h-5.937l4.229 4.108l-2.325 2.334l-5.74-5.769l-5.741 5.769l-2.325-2.325l4.229-4.108H2.226V8.121h5.909l-4.2-4.004l2.324-2.381l4.005 4.117V0h3.472zm-3.472 10.306h3.472V24h-3.472z"/></svg></span>
+              
               </dl>
             </span>
           </div>
@@ -147,7 +151,7 @@
   </div>
 
 
-<footer>
+<footer style="margin: 10px;">
   <div class="foot container frame4 " style="border: dotted orange; border-radius: 20px;">
     <div class=" container footpg" style="  color: white; padding-top: 20px;">
       <div class="about-content" style=" width:auto;">
@@ -215,6 +219,10 @@
  
   <script src="js.js"></script>
   <script>
+    function link(){
+    //  window.location.href ="https://linktr.ee/Shaurya_jain27?utm_source=linktree_admin_share"
+     window.open("https://linktr.ee/Shaurya_jain27?utm_source=linktree_admin_share")
+    }
     AOS.init();
      VANTA.RINGS({
        el: "#your-element-selector",
