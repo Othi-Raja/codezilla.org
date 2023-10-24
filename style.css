@@ -13,7 +13,7 @@ html {
 }
 
 #loader{
-  background-color: #000000;
+     
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -22,7 +22,13 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  ;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+ 
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.6px);
+-webkit-backdrop-filter: blur(11.6px);
+  
 }
   #Layer_1{
     
@@ -42,7 +48,7 @@ html {
       100% {
           transform: rotate(360deg);
       }
-  }
+  } 
 
 .btn {
   display: none;
@@ -57,6 +63,9 @@ html {
   height: 100vh;
   background-position: center;
 }
+::-webkit-scrollbar{
+  scroll-behavior: smooth;
+}
 
 .home-font {
   font-family: 'Handjet', sans-serif;
@@ -65,7 +74,7 @@ html {
   font-size: 100px;
   color: orange;
   background: linear-gradient(to right, #f37221,
-      #fcaa73, #fefefe, #950a9f);
+      #fcaa73, #b064b0, #950a9f);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
