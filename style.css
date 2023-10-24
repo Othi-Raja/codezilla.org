@@ -500,7 +500,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 70px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #c7c7c7, #ffffff);
+        #fcaa73, #dddddd, #ffffff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -516,7 +516,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 80px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #b3b3b3, #ffffff);
+        #fcaa73, #dddddd, #ffffff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -542,7 +542,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 70px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #989898, #989898);
+        #fcaa73, #dddddd, #989898);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -568,7 +568,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 70px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #e0e0e0, #f2f2f2);
+        #fcaa73, #dddddd, #f2f2f2);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -594,7 +594,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 60px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #ababab, #d9d9d9);
+        #fcaa73, #dddddd, #d9d9d9);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -621,7 +621,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 60px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #b2b2b2, #ffffff);
+        #fcaa73, #dddddd, #ffffff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -647,7 +647,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 68px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #c2c2c2, #ffffff);
+        #fcaa73, #dddddd, #ffffff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -673,7 +673,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-size: 60px;
     color: orange;
     background: linear-gradient(to right, #f32170,
-        #fcaa73, #b7b7b7, #ffffff);
+        #fcaa73, #dddddd, #ffffff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
