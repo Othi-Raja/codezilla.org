@@ -57,7 +57,7 @@ window.addEventListener('load', () => {
         scrollDirection = 'forward';
       }
     }
-  }, 50);
+  }, 200);
 });
 
  
